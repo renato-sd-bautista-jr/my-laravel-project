@@ -51,7 +51,7 @@
   <ul>
     <li><a href="{{ route('home') }}">Home<br></a></li>
     <li><a href="{{ route('about') }}">About</a></li>
-    <li><a href="{{ route('courses') }}">Courses</a></li>
+    <li><a href="{{ route('courses') }}"class="active">Courses</a></li>
     <li><a href="{{ route('trainers') }}">Trainers</a></li>
     <li><a href="{{ route('events') }}" >Events</a></li>
     <li><a href="{{ route('pricing') }}">Pricing</a></li>
@@ -74,7 +74,7 @@
         <li><a href="#">Dropdown 4</a></li>
       </ul>
     </li>
-    <li><a href="{{ route('contact') }}"class="active">Contact</a></li>
+    <li><a href="{{ route('contact') }}">Contact</a></li>
   </ul>
   <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 </nav>
